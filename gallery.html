@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>商品图片下载 - 电商图片下载插件</title>
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+  <header class="toolbar">
+    <h1 class="title">商品图片下载</h1>
+    <div class="actions">
+      <button id="select-all" class="btn">全选</button>
+      <button id="select-inverse" class="btn">反选</button>
+      <span id="selected-count" class="count">已选 0 / 0</span>
+      <button id="download-selected" class="btn primary">下载选中</button>
+    </div>
+  </header>
+
+  <main id="gallery" class="gallery"></main>
+
+  <div id="progress" class="progress hidden">
+    <div class="progress-track">
+      <div id="progress-fill" class="progress-fill"></div>
+    </div>
+    <p id="progress-text" class="progress-text"></p>
+  </div>
+
+  <div id="empty" class="empty hidden">
+    <p>没有可用的图片数据，请先在商品详情页点击「获取图片」按钮。</p>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="电商图片下载插件 ImageGrab —— 淘宝、京东、拼多多商家版商品详情页一键提取并批量下载图片" />
+  <title>ImageGrab 图提取 - 电商图片下载插件</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">ImageGrab <span>图提取</span></a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#features">核心功能</a></li>
+        <li><a href="#install">安装步骤</a></li>
+        <li><a href="#screenshots">界面预览</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero">
+    <div class="container">
+      <p class="hero-badge">Chrome 扩展 · Manifest V3</p>
+      <h1>电商图片下载，一键搞定</h1>
+      <p class="hero-sub">
+        在淘宝、天猫、京东、拼多多商家版商品详情页，点击「获取图片」即可提取全部商品图，
+        集中勾选、批量下载为高清 PNG。
+      </p>
+      <div class="hero-actions">
+        <a href="#install" class="btn btn-primary">免费安装</a>
+        <a href="#features" class="btn btn-ghost">了解功能</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 核心功能 -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">核心功能</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>一键提取</h3>
+          <p>详情页右下角悬浮「获取图片」按钮，点击即扫描页面全部商品图片，无需手动翻找。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>智能过滤</h3>
+          <p>自动过滤图标、Logo、占位图、1×1 及小于 100×100 的小图，只保留真正的商品图。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🖼️</div>
+          <h3>批量转 PNG</h3>
+          <p>支持 jpg / webp 等格式统一转换为 PNG 下载，文件名按「商品图_001.png」自动编号。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛒</div>
+          <h3>多平台支持</h3>
+          <p>覆盖淘宝、天猫、京东、拼多多及拼多多商家版，专为电商运营与商品选品设计。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">✅</div>
+          <h3>灵活勾选</h3>
+          <p>新页面网格化展示，支持全选 / 反选 / 已选计数，想下哪张就下哪张。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>轻量安全</h3>
+          <p>Manifest V3 规范开发，权限最小化，仅访问目标电商站点与下载功能。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 安装步骤 -->
+  <section id="install" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">安装步骤</h2>
+      <ol class="steps">
+        <li>
+          <span class="step-num">1</span>
+          <div>
+            <h3>下载并解压项目</h3>
+            <p>获取插件项目文件夹 <code>ecommerce-image-downloader</code>，解压到本地任意位置。</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div>
+            <h3>打开扩展管理页</h3>
+            <p>在 Chrome 地址栏输入 <code>chrome://extensions</code> 并回车。</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div>
+            <h3>开启开发者模式</h3>
+            <p>打开页面右上角的「开发者模式」开关。</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <div>
+            <h3>加载已解压的扩展程序</h3>
+            <p>点击「加载已解压的扩展程序」，选择项目文件夹，安装完成。</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">5</span>
+          <div>
+            <h3>开始使用</h3>
+            <p>打开任一电商商品详情页，点击右下角「获取图片」按钮即可提取并批量下载。</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 界面预览（截图占位区域） -->
+  <section id="screenshots" class="section">
+    <div class="container">
+      <h2 class="section-title">界面预览</h2>
+      <p class="section-sub">以下为功能截图占位区域，可替换为真实截图。</p>
+      <div class="shot-grid">
+        <figure class="shot">
+          <div class="shot-placeholder">商品详情页「获取图片」按钮截图占位</div>
+          <figcaption>详情页悬浮按钮</figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-placeholder">图片网格展示与勾选界面截图占位</div>
+          <figcaption>集中展示与勾选</figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="shot-placeholder">批量下载进度与下载完成效果截图占位</div>
+          <figcaption>批量下载结果</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section id="faq" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">常见问题</h2>
+      <div class="faq-item">
+        <h3>为什么按钮没有出现在页面上？</h3>
+        <p>插件仅在淘宝、天猫、京东、拼多多等平台的商品详情页显示按钮，请确认当前页面是商品详情页，并确认扩展已启用。</p>
+      </div>
+      <div class="faq-item">
+        <h3>下载的图片会保存到哪里？</h3>
+        <p>默认保存到浏览器的下载目录（通常为「下载」文件夹），文件名按「商品图_001.png」规则编号。</p>
+      </div>
+      <div class="faq-item">
+        <h3>部分图片下载失败怎么办？</h3>
+        <p>极少数防盗链或已失效的图片可能下载失败，可在控制台查看失败明细后重试，或手动保存。</p>
+      </div>
+      <div class="faq-item">
+        <h3>插件会收集我的数据吗？</h3>
+        <p>不会。所有图片数据仅在浏览器本地处理，不上传任何服务器。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 ImageGrab 图提取 · 电商图片下载插件 · 仅供学习与技术演示</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
